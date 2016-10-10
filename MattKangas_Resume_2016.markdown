@@ -19,17 +19,16 @@ cell: 718-812-6542
 - Led a geographically distributed team of 6 across Australia, Europe, USA
 - Worked directly with product manager and design lead to define product roadmap and deliver industry-leading UX
 - Delivered 4 major (stable) releases. 20 distinct releases completed January-September 2016
-- Implemented beta/stable release channels and a 6-week release cadence
 - Rewarded for outstanding team performance at MongoDB World 2016 conference (June, NYC)
 
 *Integrations team: 3.2 cycle, Feb-Dec 2015*
 
 - Booted up new team with 3 direct reports, focused on commercial software to complement our open-source database
-- Project: MongoDB Compass, new desktop GUI for Windows and OS X
+- Project: MongoDB Compass, a new desktop GUI for Windows and OS X
     - Goal: Win hearts & minds of Enterprise DBAs by helping them understand data in MongoDB
-    - Key innovation: samples a database collection to infer a probabilistic schema, then presents query builder based on schema/data visualization
+    - Key innovation: sample a database collection to infer a probabilistic schema, then present query builder based on schema/data visualization
     - Public demo at MongoDB World, June 2015. Launched 1.0 December 2015
-    - Platform: Javascript using Electron framework
+    - Platform: Javascript/Node.js using Electron framework
 - Project: APM integration with New Relic and AppDynamics
     - Goal: provide complete solution for monitoring MongoDB-based applications
     - Initiated outreach to partner companies, led weekly meetings with them for 5 months
@@ -42,10 +41,8 @@ cell: 718-812-6542
     - 250+ neglected open-source contributions to C++ codebase of highly visible project
     - We analyzed and responded to each one, clearing path for new contributors
 - Delivered new [log components/filtering capability](https://docs.mongodb.com/manual/reference/log-messages/) in MongoDB 3.0
-    - Wrote spec. Implemented functionality and tests in C++
 - Delivered two contracted enhancements for In-Q-Tel
-    - Wrote spec for multilingual full-text enhancements. Vetted commercial linguistic tokenization libraries
-- Supervised source contributions from Facebook and WiredTiger
+- Supervised source contributions from commercial partners
     - Facebook: Created code review workflow that satisfied peculiar legal requirements
     - WiredTiger: From initial open-source contributions through MongoDB acquisition in late 2014
 
@@ -53,8 +50,8 @@ cell: 718-812-6542
 
 - Directly managed 20 engineers throughout the 2.6 release cycle
 - Responsible for 1:1s, performance reviews, promotion nominations, compensation review
-- Instituted "Build Baron" program to triage build failures rapidly
 - Organized engineering rotations onto support team, worked closely with support on escalated issues
+- Instituted "Build Baron" program to triage build failures rapidly
 - Platform: C++, Javascript
 
 
@@ -65,8 +62,8 @@ cell: 718-812-6542
 - *__squarespace.com__ is a website hosting service with a strong design emphasis*
 - Reported to VP of Engineering
 - Delivered new real-time site performance monitoring capability
-    - Implemented Graphite time-series metrics database
-    - Implemented performance metrics collection from their primary web applications
+    - Deployed Graphite time-series metrics database
+    - Implemented performance metrics collection from primary web applications
     - Led evaluation of APM solution from AppDynamics
 - Platform: Java, MongoDB, CentOS/VMware
 
@@ -74,8 +71,7 @@ cell: 718-812-6542
 
 **Director of Engineering**, November 2011 - August 2012. New York, NY
 
-- *__daylife.com__ was a cloud publishing service used by 200+ media organizations.
-Launched 2006, raised $15 million, acquired by NewsCred in 2012*
+- *__daylife.com__ was a cloud publishing service used by 200+ media organizations. Launched 2006, raised $15 million, acquired by NewsCred in 2012*
 - Responsible for delivery of next-generation media delivery platform
 - Implementated HBase to consolidate persistence layers
 - Led due diligence with potential acquirers
@@ -108,9 +104,9 @@ Launched 2006, raised $15 million, acquired by NewsCred in 2012*
 
 - *__busytonight.com__ was a search engine for events: things happening at a place and a time*
 - Founded company with two partners. Primary designer of all systems
-- Web crawler: 6 machines crawled 30k websites, 15M URLs refreshed every 2 weeks. Custom "crawl trap" avoidance
+- Web crawler: 6 machines crawled 30k websites, 15M URLs refreshed every 2 weeks
 - Feature detector: natural language detection of dates, places in normal HTML. Recognizes 50+ date, 10+ address formats in plain English
-- Auto-Extractor: distilled event listings from "dirty" HTML. Stateless algorithm analyzes location of "features" within HTML document structure. Output: "clean" HTML summaries plus image thumbnails from original listing
+- Auto-Extractor: distills event listings from "dirty" HTML. Stateless algorithm analyzes location of "features" within HTML document structure. Output: "clean" HTML summaries plus image thumbnails from original listing
 - Indexer: Daily full reindex cycle. Scaled to 5M listings, 2M unique
 - Platform: Linux, Java, Lucene search library, Nutch 0.7 (precursor to Hadoop), PHP, custom distributed key-value database inspired by cdb and Yahoo UDB
 
@@ -133,7 +129,6 @@ Launched 2006, raised $15 million, acquired by NewsCred in 2012*
 - Started company with two partners to provide B2B services + solutions
 - Built client API, web app, fulfiller GUI app for drop-shipping of goods
 - Co-wrote a full business plan, pitched to VCs and potential clients
-- Folded operations due to market conditions
 - Platform: Java (J2EE, Swing)
 
 ### MCY
@@ -161,4 +156,4 @@ CORNELL UNIVERSITY, COLLEGE OF ENGINEERING. Ithaca, NY
 Bachelor of Science in Electrical Engineering, May 1997
 
 CORNELL UNIVERSITY, COLLEGE OF ARTS AND SCIENCES. Ithaca, NY  
-Bachelor of Arts in Theatre Arts, Cinema Studies. May 1997.
+Bachelor of Arts in Theatre Arts, Cinema Studies. May 1997
