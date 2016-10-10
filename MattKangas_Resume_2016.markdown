@@ -37,14 +37,14 @@ cell: 718-812-6542
 
 *Kernel team: 3.0 cycle, May 2014-Jan 2015*
 
-- Leading new "Kernel Community team", 3 direct reports. A more hands-on role
-- Goal: Drain the pull request backlog on [github.com/mongodb/mongo](https://github.com/mongodb/mongo)
+- Leading new "Kernel Community team". 3 direct reports, a more hands-on role
+- Drained the pull request backlog on [github.com/mongodb/mongo](https://github.com/mongodb/mongo)
     - 250+ neglected open-source contributions to C++ codebase of highly visible project
     - We analyzed and responded to each one, clearing path for new contributors
-- Goal: Deliver server log subsystem improvements
-    - Designed [log components/filtering capability](https://docs.mongodb.com/manual/reference/log-messages/) in MongoDB 3.0. Implemented functionality and tests in C++
-- Goal: Deliver two contracted enhancements for In-Q-Tel
-    - Multilingual full-text enhancements to MongoDB Enterprise. Wrote spec. Vetted 3rd party linguistic tokenization libraries
+- Delivered new [log components/filtering capability](https://docs.mongodb.com/manual/reference/log-messages/) in MongoDB 3.0
+    - Wrote spec. Implemented functionality and tests in C++
+- Delivered two contracted enhancements for In-Q-Tel
+    - Wrote spec for multilingual full-text enhancements. Vetted commercial linguistic tokenization libraries
 - Supervised source contributions from Facebook and WiredTiger
     - Facebook: Created code review workflow that satisfied peculiar legal requirements
     - WiredTiger: From initial open-source contributions through MongoDB acquisition in late 2014

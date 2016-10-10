@@ -1,0 +1,41 @@
+/* MattKangas_Resume_2016.css */
+
+body {
+	border: 0px;
+}
+
+body .markdown-body {
+	padding: 1em;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+	border-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.markdown-body h1 {
+	margin-bottom: 0.25em;
+}
+
+.markdown-body h2 {
+	font-size: 1.6em;
+}
+
+.markdown-body h3 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 1.4em;
+}
+
+.markdown-body p {
+	margin-bottom: 8px;
+}
+
+@media print {
+	.markdown-body a[href]:after {
+		content: none;
+	}
+}
