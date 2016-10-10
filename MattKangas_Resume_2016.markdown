@@ -16,35 +16,30 @@ cell: 718-812-6542
 *Compass team: 3.4 cycle, Jan-Sep 2016*
 
 - Co-authored patent, "SYSTEMS AND METHODS FOR MODELLING VIRTUAL SCHEMAS IN NON-RELATIONAL DATABASES". US Patent filed July 2016. This describes innovations created for MongoDB Compass 1.0
-- Led a geographically distributed team:
-    - 3 in Sydney, Australia. (2 new hires)
-    - 2 in Europe: Berlin and Stockholm
-    - 2 in USA: Philadelphia plus myself in NYC
-- Worked directly with product manager and design lead to define the product roadmap and deliver an industry-leading UI experience
+- Led a geographically distributed team of 6 across Australia, Europe, USA
+- Worked directly with product manager and design lead to define product roadmap and deliver industry-leading UX
 - Delivered 4 major (stable) releases. 20 distinct releases completed January-September 2016
 - Implemented beta/stable release channels and a 6-week release cadence
-- Rewarded for outstanding team performance at MongoDB World 2016 Conference (June, NYC)
+- Rewarded for outstanding team performance at MongoDB World 2016 conference (June, NYC)
 
 *Integrations team: 3.2 cycle, Feb-Dec 2015*
 
-- Booted up new team focused on commercial software to complement our open-source database
-- 3 senior engineer direct reports
-- Project: APM integration with New Relic and AppDynamics
-    - Goal: provide complete solution for monitoring MongoDB-based applications
-    - Initiated outreach to partner companies, led weekly meetings with them for 5 months
-    - Project featured by New Relic in keynote of their developer conference, Nov 2015
+- Booted up new team with 3 direct reports, focused on commercial software to complement our open-source database
 - Project: MongoDB Compass, new desktop GUI for Windows and OS X
     - Goal: Win hearts & minds of Enterprise DBAs by helping them understand data in MongoDB
     - Key innovation: samples a database collection to infer a probabilistic schema, then presents query builder based on schema/data visualization
     - Public demo at MongoDB World, June 2015. Launched 1.0 December 2015
     - Platform: Javascript using Electron framework
+- Project: APM integration with New Relic and AppDynamics
+    - Goal: provide complete solution for monitoring MongoDB-based applications
+    - Initiated outreach to partner companies, led weekly meetings with them for 5 months
+    - Project featured by New Relic in keynote of their developer conference, Nov 2015
 
 *Kernel team: 3.0 cycle, May 2014-Jan 2015*
 
-- Leading new "Kernel Community team". A more hands-on role
-- Three direct reports: two senior, one junior
+- Leading new "Kernel Community team", 3 direct reports. A more hands-on role
 - Goal: Drain the pull request backlog on [github.com/mongodb/mongo](https://github.com/mongodb/mongo)
-    - 250+ neglected open-source contributions in C++ codebase of highly visible project
+    - 250+ neglected open-source contributions to C++ codebase of highly visible project
     - We analyzed and responded to each one, clearing path for new contributors
 - Goal: Deliver server log subsystem improvements
     - Designed [log components/filtering capability](https://docs.mongodb.com/manual/reference/log-messages/) in MongoDB 3.0. Implemented functionality and tests in C++
@@ -90,12 +85,11 @@ Launched 2006, raised $15 million, acquired by NewsCred in 2012*
 - Upgraded front-end MySQL databases to keep up with traffic growth
 - Full system audit to eliminate single points of failure
 - Overhauled build, test, deployment systems
-    - RPM-based deployments for transactional rollouts and rollback
-    - Runnable unit and integration test suites
+    - Transactional rollouts and rollback using RPM packages
     - Rewrote build system, implemented continuous integration using Hudson/Jenkins
-- Centralized log collection and implemented scalable log processing using Hadoop and Pig
+    - Crafted new unit and integration test suites
+- Implemented scalable log processing using Hadoop and Pig
 - Researched scalable key-value datastores to replace MySQL, Postgres, BerkeleyDB, cdb+rsync, flatfile
-- SVN to Git (Github) migration
 - Platform: Python, Java, C, many databases, CentOS. 100+ machines serving > 1 billion API calls/month by 2010
 
 ### Flix55
@@ -118,7 +112,6 @@ Launched 2006, raised $15 million, acquired by NewsCred in 2012*
 - Feature detector: natural language detection of dates, places in normal HTML. Recognizes 50+ date, 10+ address formats in plain English
 - Auto-Extractor: distilled event listings from "dirty" HTML. Stateless algorithm analyzes location of "features" within HTML document structure. Output: "clean" HTML summaries plus image thumbnails from original listing
 - Indexer: Daily full reindex cycle. Scaled to 5M listings, 2M unique
-- Front End: PHP UI querying a Java/Lucene search server
 - Platform: Linux, Java, Lucene search library, Nutch 0.7 (precursor to Hadoop), PHP, custom distributed key-value database inspired by cdb and Yahoo UDB
 
 ### HotJobs, acquired by Yahoo, Inc
@@ -126,9 +119,9 @@ Launched 2006, raised $15 million, acquired by NewsCred in 2012*
 **Technical Yahoo!**, August 2001 - April 2005. New York, NY
 
 - *__hotjobs.com__ was one of the top-three trafficked employment websites in the USA. Acquired by Yahoo! in 2002*
-- I rebuilt a mission critical back-end system for bulk data imports by large customers.
-    - Achieved total backwards compatibility via extensive reverse engineering and a rigorous QA cycle.
-    - Result was an order-of-magnitude win in reliability and manageability.
+- I rebuilt a mission critical back-end system for bulk data imports by large customers
+    - Achieved total backwards compatibility via extensive reverse engineering and a rigorous QA cycle
+    - Result was an order-of-magnitude win in reliability and manageability
 - Created resume/job-apply import processor within an extremely compressed schedule (one month) to support careers.yahoo.com during the Y!/HJ merger
 - Debugging and diagnosis of nearly all back-end systems
 - Platform: Java, Python, C, Oracle and custom DBs, Solaris, FreeBSD
