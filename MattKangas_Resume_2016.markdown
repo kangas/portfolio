@@ -27,16 +27,14 @@ cell: 718-812-6542
 
 *Integrations team: 3.2 cycle, Feb-Dec 2015*
 
-- Booted up new team, focused on commercial software to complement our open-source database
+- Booted up new team focused on commercial software to complement our open-source database
 - 3 senior engineer direct reports
 - Project: APM integration with New Relic and AppDynamics
     - Goal: provide complete solution for monitoring MongoDB-based applications
     - Initiated outreach to partner companies, led weekly meetings with them for 5 months
-    - Successfully motivated teams at partner companies to work our project
     - Project featured by New Relic in keynote of their developer conference, Nov 2015
-- Project: MongoDB Compass
+- Project: MongoDB Compass, new desktop GUI for Windows and OS X
     - Goal: Win hearts & minds of Enterprise DBAs by helping them understand data in MongoDB
-    - New desktop GUI application delivered on Windows and OS X
     - Key innovation: samples a database collection to infer a probabilistic schema, then presents query builder based on schema/data visualization
     - Public demo at MongoDB World, June 2015. Launched 1.0 December 2015
     - Platform: Javascript using Electron framework
@@ -47,13 +45,11 @@ cell: 718-812-6542
 - Three direct reports: two senior, one junior
 - Goal: Drain the pull request backlog on [github.com/mongodb/mongo](https://github.com/mongodb/mongo)
     - 250+ neglected open-source contributions in C++ codebase of highly visible project
-    - We analyzed and responded to each one, clearing path for new contributors without trampling on old, often bitter contributors
+    - We analyzed and responded to each one, clearing path for new contributors
 - Goal: Deliver server log subsystem improvements
     - Designed [log components/filtering capability](https://docs.mongodb.com/manual/reference/log-messages/) in MongoDB 3.0. Implemented functionality and tests in C++
 - Goal: Deliver two contracted enhancements for In-Q-Tel
     - Multilingual full-text enhancements to MongoDB Enterprise. Wrote spec. Vetted 3rd party linguistic tokenization libraries
-- Goal: Improve performance of MongoDB on Microsoft Azure
-    - My team identified a bug in Azure VM host block device driver. Microsoft acknowledged and resolved.
 - Supervised source contributions from Facebook and WiredTiger
     - Facebook: Created code review workflow that satisfied peculiar legal requirements
     - WiredTiger: From initial open-source contributions through MongoDB acquisition in late 2014
@@ -71,7 +67,7 @@ cell: 718-812-6542
 
 **Engineering Manager**, August 2012 - March 2013. New York, NY
 
-- *[squarespace.com](http://www.squarespace.com) is a website hosting service with a strong design emphasis*
+- *__squarespace.com__ is a website hosting service with a strong design emphasis*
 - Reported to VP of Engineering
 - Delivered new real-time site performance monitoring capability
     - Implemented Graphite time-series metrics database
@@ -106,10 +102,10 @@ Launched 2006, raised $15 million, acquired by NewsCred in 2012*
 
 **Lead Technical Consultant**, February 2007 - June 2008. Melville, NY.
 
-- *__flix55.com__ was a a crowdsourced streaming video destination site created by WLNY-TV*
+- *__flix55.com__ was a crowdsourced streaming video destination site created by WLNY-TV*
 - Implemented video transcoding including work queue and bulk media storage
 - Implemented search engine for videos/users. Designed full indexer, incremental indexer, search schema, installation/upgrade process
-- Performed security audits. Set up Subversion SCM, Trac issue tracking, yum package repo
+- Performed security audits. Set up Subversion SCM, Trac issue tracker and wiki, yum package repo
 - Platform: Apache Solr, On2 Flix Engine, CentOS/Xen
 
 ### Team Gigabyte, Inc. (DBA BusyTonight)
@@ -118,11 +114,12 @@ Launched 2006, raised $15 million, acquired by NewsCred in 2012*
 
 - *__busytonight.com__ was a search engine for events: things happening at a place and a time*
 - Founded company with two partners. Primary designer of all systems
-- Web Crawler: 6 machines crawled 30k websites, 15M URLs refreshed every 2 weeks. Nutch 0.7 plus custom “crawl trap” avoidance
-- Feature Detector: Natural language detection of dates+places in normal HTML. Recognizes 50+ date formats, 10+ address, all in plain English
-- Auto-Extractor: extraction of event listings from “dirty” HTML. Stateless algorithm analyzes location of “features” within HTML document structure. Listings include “sanitized” HTML summaries, image thumbnails (when found in original listing)
+- Web crawler: 6 machines crawled 30k websites, 15M URLs refreshed every 2 weeks. Custom "crawl trap" avoidance
+- Feature detector: natural language detection of dates, places in normal HTML. Recognizes 50+ date, 10+ address formats in plain English
+- Auto-Extractor: distilled event listings from "dirty" HTML. Stateless algorithm analyzes location of "features" within HTML document structure. Output: "clean" HTML summaries plus image thumbnails from original listing
 - Indexer: Daily full reindex cycle. Scaled to 5M listings, 2M unique
-- Front End: Java search server feeding a PHP UI
+- Front End: PHP UI querying a Java/Lucene search server
+- Platform: Linux, Java, Lucene search library, Nutch 0.7 (precursor to Hadoop), PHP, custom distributed key-value database inspired by cdb and Yahoo UDB
 
 ### HotJobs, acquired by Yahoo, Inc
 
