@@ -9,6 +9,20 @@ cell: 718-812-6542
 
 ## Employment History
 
+### Madison Logic
+
+**Vice President of Engineering**, May 2017 - present. New York, NY  
+**Principal Architect**, December 2016 - April 2017. New York, NY
+
+Madison Logic is a B2B Marketing Technology company based in NYC with a division in Ireland. Total company headcount is 160.
+
+I oversaw a team of 14 engineers in NYC, 22 in India (via subcontractor). Our technology stack runs entirely on AWS. Our modern stack is Node.js leveraging AWS services; legacy stack is C# on Windows VMs.
+
+- Launched "Order Management" (OM) initiative to automate order processing workflows that consisted of 150 manual steps. Wrote initial codebase in Node.js 6.
+- Designed new "CRM Integration" platform, connecting to client Salesforce instances.
+- Launched self-service order creation platform which feeds into OM.
+- By October 2017: Promoted 3 engineers, hired two, managed out one.
+
 ### MongoDB (Formerly 10gen)
 
 **Engineering Manager**, March 2013 - September 2016. New York, NY
