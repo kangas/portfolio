@@ -19,9 +19,10 @@ Madison Logic is a B2B Marketing Technology company based in NYC with a division
 I oversaw a team of 14 engineers in NYC, 22 in India (via subcontractor). Our technology stack runs entirely on AWS. Our modern stack is Node.js leveraging AWS services; legacy stack is C# on Windows VMs.
 
 - Launched "Order Management" (OM) initiative to automate order processing workflows that consisted of 150 manual steps. Wrote initial codebase in Node.js 6.
-- Designed new "CRM Integration" platform, connecting to client Salesforce instances.
+- Designed new "CRM Integration" API connecting to client Salesforce instances.
 - Launched self-service order creation platform which feeds into OM.
-- By October 2017: Promoted 3 engineers, hired two, managed out one.
+- Promoted 3 engineers, hired two, managed out one.
+- Oversaw AWS budget of nearly $1M. Reduced average monthly AWS spend by 37%.
 
 ### MongoDB (Formerly 10gen)
 
@@ -152,7 +153,7 @@ I oversaw a team of 14 engineers in NYC, 22 in India (via subcontractor). Our te
 - *__mcy.com__ was an online music service which sold encrypted MP3 files and CDs*
 - Team leader from startup to IPO
 - Designed & implemented online music sales system, including credit card processing
-- Designed relational database (70+ tables, 1M+ records) for sales, inventory using object-relational mapping to business logic
+- Designed relational database (70+ tables) for sales, inventory using object-relational mapping to business logic
 - Platform: WebObjects, Objective-C, Solaris, Informix, Cybercash
 
 ### Cybergrrl
