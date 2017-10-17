@@ -16,7 +16,7 @@ cell: 718-812-6542
 
 Madison Logic is a B2B Marketing Technology company based in NYC with a division in Ireland. Total company headcount is 160.
 
-I oversaw a team of 14 engineers in NYC, 22 in India (via subcontractor). Our technology stack runs entirely on AWS. Our modern stack is Node.js leveraging AWS services; legacy stack is C# on Windows VMs.
+I lead a team of 14 engineers in NYC, 22 in India (via subcontractor). Our technology stack runs entirely on AWS. Our modern stack is Node.js leveraging AWS services; legacy stack is C# on Windows VMs.
 
 - Launched "Order Management" (OM) initiative to automate order processing workflows that consisted of 150 manual steps. Wrote initial codebase in Node.js 6.
 - Designed new "CRM Integration" API connecting to client Salesforce instances.
